@@ -16,5 +16,21 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "prettier.semi": false,
   "typescript.format.semicolons": "remove",
-  "javascript.format.semicolons": "remove"
+  "javascript.format.semicolons": "remove",
+  "json.schemas": [
+    {
+      "fileMatch": [
+        ".eemojirc.json",
+        "package.json",
+        ".eemojirc",
+        ".eemojirc.yaml",
+        ".eemojirc.yml",
+        ".config/eemojirc",
+        ".config/eemojirc.json",
+        ".config/eemojirc.yaml",
+        ".config/eemojirc.yml"
+      ],
+      "url": "https://rettend.github.io/eemoji/eemoji-config-schema.json"
+    }
+  ]
 }

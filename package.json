@@ -2,7 +2,7 @@
   "name": "type-challenges",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@7.13.0",
+  "packageManager": "pnpm@8.10.2",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "license": "MIT",
   "repository": "https://github.com/antfu/type-challenges.git",
@@ -19,7 +19,8 @@
     "fast-glob": "^3.2.11",
     "fs-extra": "^10.1.0",
     "js-yaml": "^4.1.0",
-    "lz-string": "^1.4.4"
+    "lz-string": "^1.4.4",
+    "node": "18.16.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.1",
@@ -29,6 +30,7 @@
     "@types/lz-string": "^1.3.34",
     "@types/node": "^18.0.0",
     "@types/prompts": "^2.4.2",
+    "eemoji": "^1.0.0",
     "eslint": "^8.18.0",
     "picocolors": "^1.0.0",
     "prompts": "^2.4.2",
