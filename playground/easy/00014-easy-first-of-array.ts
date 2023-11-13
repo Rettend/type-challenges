@@ -22,7 +22,7 @@
 
 /* _____________ Your Code Here _____________ */
 
-type First<T extends any[]> = 
+type First<T extends any[]> = T extends [] ? never : T[0]
 
 type a = First<[3, 2, 1]>
 
